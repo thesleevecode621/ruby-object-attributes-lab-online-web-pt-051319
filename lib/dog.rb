@@ -1,4 +1,4 @@
-lass Dog
+class Dog 
      def name=(fido)
        @dogs_name = fido
      end
