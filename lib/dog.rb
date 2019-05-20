@@ -5,4 +5,7 @@ class Dog
   def rock 
     @name 
   end 
+  def breed=(beagle)
+    @breed = beagle
+  end 
 end 
