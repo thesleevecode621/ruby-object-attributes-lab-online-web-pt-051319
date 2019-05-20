@@ -1,4 +1,4 @@
-class Dog
+lass Dog
      def name=(fido)
        @dogs_name = fido
      end
@@ -10,4 +10,15 @@ class Dog
       def breed=(beagle)
         @breed = beagle
      end
-end 
+
+      def breed
+       @breed
+    end
+end
+
+
+ fido = Dog.new
+fido.name = "Fido"
+
+ snoopy = Dog.new
+snoopy.breed = "Beagle"
